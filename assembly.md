@@ -228,4 +228,4 @@ The command architecture of a processor is designed around the following axes:
 
         (Jump no sign)
 
-[back](./)
+[/index](./)

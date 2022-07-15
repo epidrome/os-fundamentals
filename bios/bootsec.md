@@ -44,6 +44,7 @@ dw 0xaa55
 
 To compile:
 `nasm -f bin boot_sect_simple.asm -o boot_sect_simple.bin`
+
 `qemu-system-x86_64 boot_sect_simple.bin` 
 
 If this gives an SDL error, try passing the --nographic and/or --curses flag(s).

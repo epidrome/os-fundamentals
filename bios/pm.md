@@ -40,7 +40,7 @@ init_pm: ; we are now using 32-bit instructions
 
     call BEGIN_PM ; 7. Call a well-known label with useful code
 ```
-```nasm main
+```nasm
 [org 0x7c00] ; bootloader offset
     mov bp, 0x9000 ; set the stack
     mov sp, bp

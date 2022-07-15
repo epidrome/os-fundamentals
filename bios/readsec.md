@@ -2,7 +2,7 @@
 layout: default
 ---
 
-[/index](./)
+[/index](../bios)
 
 Let the bootsector load data from disk in order to boot the kernel
 

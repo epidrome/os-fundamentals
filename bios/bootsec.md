@@ -2,7 +2,7 @@
 layout: default
 ---
 
-[/index](./)
+[/index](../bios)
 
 Create a file which the BIOS interprets as a bootable disk
 

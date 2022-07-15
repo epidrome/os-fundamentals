@@ -2,7 +2,7 @@
 layout: default
 ---
 
-[/index](./)
+[/index](../bios)
 
 Enter 32-bit protected mode
 

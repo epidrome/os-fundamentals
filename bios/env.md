@@ -2,7 +2,7 @@
 layout: default
 ---
 
-[/index](./)
+[/index](../bios)
 
 #### Create a development environment to build your kernel
 

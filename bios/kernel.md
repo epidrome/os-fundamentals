@@ -2,7 +2,7 @@
 layout: default
 ---
 
-[/index](./)
+[/index](../bios)
 
 #### Learn to write the same low-level code as we did with assembler, but in C
 

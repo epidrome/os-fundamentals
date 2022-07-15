@@ -2,6 +2,7 @@
 layout: default
 ---
 
+[/index](./)
 ## Operating Systems
 
 **MS-DOS:**  The first operating system to conquer the world of personal computers. Eleven years have passed since IBM's first PC was introduced to the world of computers, and just as much is the life of MS-DOS, its first operating system. But how strange games luck can play is shown in the case of Gary Kidall, the man who built the CP / M operating system, the PC BIOS and the boss of Digital Research. Kidall could be famous today, if at a very critical moment he was not on a surfing vacation. In fact, IBM first approached him to commission the design of the PC operating system. But because he was missing, IBM turned to Microsoft's Bill Gates. Gates bought the QDOS, a 16-bit CP / M compatible operating system, without much thought, and offered it to IBM for its first PC. From QDOS (Quick and Dirty Operating System) came MS-DOS (Microsoft Disk Operating System) or PC-DOS as the PC version of IBM was called.
@@ -32,5 +33,3 @@ During normal operation, the operating system has general, universal control ove
 
 Translators are divided into assembler and compiler. An assembler is a translation program, which receives as input a program written in a format related to that of the machine language, called assembly language, in which each instruction step that the computer has to follow is clearly identified (but in symbolic language). The assembler translates the program into real machine language or into a format that can be perceived as such at the time the program is loaded into the computer memory to run. Instead, a compiler is a translation program that takes a program written in a higher level language and translates it into another language, usually the machine language of the computer that will run the program. To the extent that several higher level programming languages are more or less problem-oriented, there may be more than one compilation. For example, a program written in a special simulation language can first be translated into a very general programming language, which is then subjected to a second translation step, in an intermediate format, similar to the assembly language, and from there to a third stage, in machine language. Usually the user needs to know in detail only the features of the upper level language although some knowledge of the rest is usually useful in designing programs.
 
-
-[/index](./)

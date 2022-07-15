@@ -2,9 +2,8 @@
 layout: default
 ---
 
+[/index](./)
 ## Virtual Machines
 
 
 What is the QEMU machine and what is the VirtualBox? In both cases we are talking about virtual machines, i.e. machines that emulate the operation of a computer system, whether it is a computer or a console, e.g. Nintendo. Virtual machines are programs on the computer that behave like a real computer, understand the machine language and take advantage of all the capabilities of the CPU for operations and commands in a binary / hexadecimal system, while they can also interact with the peripherals of the computer. The only difference between a virtual machine and an emulator is that the latter is designed to emulate the behavior of a particular console, e.g. the NES emulator. A virtual machine acts as an umbrella for various computer architectures. Virtual machines are often developed for completely imaginary computers such as the 6502 computer, the lc3, the varvara kernel and many others (see [paladin-fantasy](https://github.com/paladin-t/fantasy)). The emulation aims to execute programs designed for one type of system in another type of system. An emulator is software that tries to "act" like a piece of hardware. Typically, this means simulating all the features of a hardware component as software components. The most difficult component to emulate is usually the central processing unit (CPU). For example, the PlayStation CPU uses a set of commands called MIPS, which is different from laptops that use, for example, x86. Each CPU instruction received by the emulator needs to be translated from one instruction set to another. So in the example above, a PlayStation emulator would take a MIPS command, translate it to x86, and then run it on the laptop. This is the basis of how an emulator can simulate an entire device inside the computer "like an interpreter trying to relay a conversation between two people who speak different languages".
-
-[/index](./)

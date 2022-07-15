@@ -2,9 +2,14 @@
 layout: default
 ---
 
+[/index](./)
+
 ## Assembly language
 
 The command architecture of a processor is designed around the following axes:
+
+<!-- <iframe frameborder="0" width="100%" height="500px" src="https://replit.com/@moya10/moyaOS?embed=true"></iframe> -->
+
 
 ### Registers
 
@@ -227,5 +232,3 @@ The command architecture of a processor is designed around the following axes:
 - JNS destination
 
         (Jump no sign)
-
-[/index](./)

@@ -2,6 +2,8 @@
 layout: default
 ---
 
+
+[/index](./)
 ## Computer Chronicles
 
 The history of computers begins with the abacus, which first appeared in the East more than 5,000 years ago. The abacus is constructed so that calculations can be performed by sliding counters — balls — along parallel bars. The counters are divided into two fields with a partition perpendicular to the bars. One field has one or two counters, corresponding to the numbers 1 and 5 depending on their position on the bar. The second field has four or five counters, corresponding to units. Each partition corresponds to an important digit, with the least important one on the right (or bottom) side.
@@ -54,5 +56,3 @@ Since the early 1980s, many computer scientists and engineers, especially in Jap
 
 Significant software improvements, such as native language programs, also help to establish the premise for smart computers. Programs like this allow computers to understand written commands in common English. Single-chip signal processors are also available that can be programmed to recognize simple words and / or entire spoken sentences. Another development is the knowledge systems, based on knowledge, which require the storage and application of huge amounts of specialized knowledge in special complex, non-numerical problems. This type of program has been widely used as an aid to physicians in diagnosing and prescribing treatment. More important developments for artificial intelligence, more for research, are the efforts to develop computer programs that can produce other programs. Such software is capable of transforming the art of programming if not eliminating it altogether (see [AlphaCode in DeepMind](https://www.theverge.com/2022/2/2/22914085/alphacode-ai-coding-program-automatic-deepmind-codeforce)).
 
-
-[/index](./)

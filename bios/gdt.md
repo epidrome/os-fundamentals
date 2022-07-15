@@ -2,7 +2,7 @@
 layout: default
 ---
 
-[/index](../bios)
+[/index](../bios.md)
 
 program the GDT
 

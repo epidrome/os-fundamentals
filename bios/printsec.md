@@ -2,7 +2,7 @@
 layout: default
 ---
 
-[/index](../bios)
+[/index](../bios.md)
 
 Make the boot sector print some text
 

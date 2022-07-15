@@ -2,4 +2,4 @@
 layout: default
 ---
 
-[/index](../bios)
+[/index](../bios.md)

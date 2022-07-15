@@ -2,7 +2,7 @@
 layout: default
 ---
 
-[/index](../bios)
+[/index](../bios.md)
 
 Learn how to code basic stuff (loops, functions) with the assembly langauge
 

@@ -16,10 +16,9 @@ layout: default
 9. [Create a development environment to build your kernel](/bios/env.md)
 10. [create a simple kernel and a bootsector to load it](/bios/kernel.md)
 11. [use VGA card data ports](/bios/vga.md)
-12. [setup the IDT to handle CPU interrupts](/bios/idt.md)
-13. [IRQ handlers, timer & keyboard](/bios/irq.md)
-14. [parse user input - tiny shell](/bios/shell.md)
-15. [memory allocator](/bios/alloc.md)
+12. [setup the IDT to handle CPU interrupts, IRQ handlers](/bios/idt.md)
+13. [parse user input - tiny shell](/bios/shell.md)
+
 
 ## some theory
 

@@ -19,18 +19,7 @@ layout: default
 12. [setup the IDT to handle CPU interrupts, IRQ handlers](/bios/idt.md)
 13. [parse user input - tiny shell](/bios/shell.md)
 
-
-## some theory
-
-![](./assets/images/os-definition-and-functions.png)
-
 A kernel can be defined as an interface between user and hardware. It is responsible for the execution of all the processes, Resource Allocation, CPU management, File Management and many other tasks.
-
-The purpose of an operating system is to provide an environment in which a user can execute programs in convenient and efficient manner.
-
-![](./assets/images/structur-of-a-computer-system.png)
-
-Structure of a Computer System
 
 A Computer System consists of:
 

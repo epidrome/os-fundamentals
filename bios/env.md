@@ -11,8 +11,7 @@ You will need a cross-compiler once we jump to developing in a higher language, 
 Required packages
 -----------------
 
-First, install the required packages. On linux, use your package distribution. On a Mac, [install brew](http://brew.sh/) if
-you didn't do it on lesson 00, and get those packages with `brew install`
+First, install the required packages. On linux, use your package distribution. On a Mac, [install brew](http://brew.sh/) and get those packages with `brew install`
 
 - gmp
 - mpfr

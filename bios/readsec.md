@@ -98,6 +98,7 @@ There are two quick options:
 1. Try the flag `-fda` for example, `qemu-system-x86_64 -fda binfile` which will set `dl`
 as `0x00`, it seems to work fine then.
 2. Explicitly use the flag `-boot`, e.g. `qemu-system-x86_64 binfile -boot c` which automatically sets `dl` as `0x80` and lets the bootloader read data
+
 ---
 
 #### Excercise

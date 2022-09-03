@@ -4,7 +4,7 @@ layout: default
 
 [/index](../bios.md)
 
-Let the bootsector load data from disk in order to boot the kernel
+#### Let the bootsector load data from disk in order to boot the kernel
 
 Our OS won't fit inside the bootsector 512 bytes, so we need to read data from a disk in order to run the kernel.
 
@@ -98,4 +98,8 @@ There are two quick options:
 1. Try the flag `-fda` for example, `qemu-system-x86_64 -fda binfile` which will set `dl`
 as `0x00`, it seems to work fine then.
 2. Explicitly use the flag `-boot`, e.g. `qemu-system-x86_64 binfile -boot c` which automatically sets `dl` as `0x80` and lets the bootloader read data
+---
 
+#### Excercise
+
+Try to read smthing from the disk. Read the character 'A'. You need to know in which cylinder your data is in, which head you should read and in which sector you need to read data from. In other words the address *CHS*. Also, you need to first define your disk, how many sectors you want to read and where they are loaded [hint: origin address + bootsector size]. Define the registers ah [sector number], al [number of sectors to read], ch [cylinder number], cl [sector number], dh [head number], dl [drive number you set], es:bx [the address where you want to load the sectors]. Then try to print the letter on screen using the *load* address you defined. 

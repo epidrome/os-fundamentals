@@ -4,7 +4,7 @@ layout: default
 
 [/index](../bios.md)
 
-Learn how to code basic stuff (loops, functions) with the assembly langauge
+#### Learn how to code basic stuff (loops, functions) with the assembly langauge
 
 Strings
 -------
@@ -78,7 +78,12 @@ The correct solution offers two improvements:
 
 To store the return address, the CPU will help us. Instead of using a couple of `jmp` to call subroutines, use `call` and `ret`.
 
-To save the register data, there is also a special command which uses the stack: `pusha` and `popa`, which pushes all registers to the stack automatically and recovers them afterwards.
+To save the register data, there is also a special command which uses the stack: `pusha` and `popa`, which pushes all registers to the stack automatically and recovers them afterwards. For example the following commands are equivalent.
+
+|```push 6, pop ax ``` |  ```mov ax, 6``` |
+| ------ | -------- |
+
+
 
 
 Including external files
@@ -89,3 +94,8 @@ The syntax is
 %include "file.asm"
 ```
 ------
+
+#### Excercise
+
+- Print the alphabet using a loop instruction. When you get to 'Z' + 1 exit the loop and stop printing characters. Use the commands cmp, je.
+- Use the commands push/pop to print a single character to the screen.

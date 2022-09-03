@@ -19,12 +19,9 @@ To jump into 32-bit mode:
 The complete code for switching to pm mode can be seen below.
 
 ```nasm
-[org 0x7c00]                        
-      
+[org 0x7c00]                         
 
 mov [BOOT_DISK], dl                 
-
-
 
 CODE_SEG equ GDT_code - GDT_start
 DATA_SEG equ GDT_data - GDT_start
@@ -36,8 +33,7 @@ or eax, 1
 mov cr0, eax
 jmp CODE_SEG:start_protected_mode
 
-jmp $
-                                    
+jmp $                                  
                                      
 GDT_start:                          ; must be at the end of real mode code
     GDT_null:
@@ -65,7 +61,6 @@ GDT_end:
 GDT_descriptor:
     dw GDT_end - GDT_start - 1
     dd GDT_start
-
 
 [bits 32]
 start_protected_mode:

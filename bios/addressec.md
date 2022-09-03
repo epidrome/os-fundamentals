@@ -31,7 +31,7 @@ Then we will try to access `the_secret` in many different ways:
 4. `mov al, 2d + 0x7C00`, where `2d` is the actual position of the 'X' byte in the binary
 
 
-If you compile and run the code you'll see a string similar to `1[2¢3X4X`, where
+If you compile and run the code below using the first two options you'll see a string similar to `1[2¢3X4X`, where
 the bytes following 1 and 2 are just random garbage.
 
 If you add or remove instructions, remember to compute the new offset of the X
@@ -133,3 +133,9 @@ jmp $
 times 510-($-$$) db 0
 dw 0xaa55
 ```
+---- 
+
+#### Excercise
+
+- Create a program that prints a string to the screen. Add a pointer to register bx that points to the string. Then create the label printString that derefernces the bx, controls the conditions if string is printed exit if not increment (inc). First define the origin address and the start address to be able to memorize the string. 
+- Bring a character from the keyboard. Use interrupt 0x16 (the system waits for key press) and set ah, 0. Your character when keyboard is pressed will be in al register and the scancode at ah.

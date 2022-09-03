@@ -4,7 +4,7 @@ layout: default
 
 [/index](../bios.md)
 
-Make the boot sector print some text
+#### Make the boot sector print some text
 
 In order to print something on the screen we will raise an interrupt.
 
@@ -41,3 +41,6 @@ As for later on ...
 
 `qemu-system-x86_64 boot_sect_hello.bin`
 
+#### Excercise
+
+Print the alphabet using ASCII numbers for character representation and the command inc (increment).

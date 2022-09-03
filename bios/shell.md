@@ -26,3 +26,10 @@ Responding to user input
 ------------------------
 
 The keyboard callback checks for a newline, and then calls the kernel, telling it that the user has input something. The function `parseCommand()` in `screen.cpp` allow the user to run some basic commands like `help, clear, echo [something]`
+
+---
+
+#### Excercise 
+
+- Try to get input from mouse and draw on screen. Note that the IRQ that handles mouse input is of number 12. Once you get input from mouse create a program that allows user to draw on screen.
+- Calibrate the cursor move so that it doesnt move in discrete points and change the cursor icon to your own preference.
